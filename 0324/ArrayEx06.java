@@ -14,8 +14,12 @@ public class ArrayEx06 {
         arr1[2][0] = 50;
         arr1[2][1] = 60;
 
-        System.out.println(arr1[0][0]);
-        System.out.println(arr1[2][1]);
+        // 선언, 생성, 초기화
+        //int[][] arr2 = new int[][]{ {10, 20}, {30, 40}, {50, 60}};
+        int[][] arr2 = new int[][] { {10, 20}, {30, 40}, {50, 60}};
+
+        System.out.println(arr2[0][0]);
+        System.out.println(arr2[2][1]);
 
     }
 }
