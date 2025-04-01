@@ -51,11 +51,11 @@ public class ArrayEx01 {
         }
 
         // 향상된 for -> 다시 해보자자
-        //for(int data : book1Array) {
-        //    System.out.printf("%s\t%s\t%s\n"
-        //    , book1Array[data].title
-        //    , book1Array[data].author
-        //    , book1Array[data].price);
-        //}
+        for(Book1 book : book1Array) {
+            System.out.printf("%s\t%s\t%s\n"
+            , book.title
+            , book.author
+            , book.price);
+        }
     }
 }

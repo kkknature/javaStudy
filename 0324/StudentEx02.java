@@ -33,8 +33,8 @@ public class StudentEx02 {
 
 
         Student stu2 = new Student();
-        stu1.hakbun = "1002";
-        stu1.name = "박문수";
+        stu2.hakbun = "1002";
+        stu2.name = "박문수";
         System.out.println(stu2);
         System.out.println(stu2.hakbun);
         System.out.println(stu2.name);

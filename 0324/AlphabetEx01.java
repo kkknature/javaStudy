@@ -4,7 +4,7 @@ public class AlphabetEx01 {
 
         // 10행        
         for(int i = 0; i <= 9; i++) {
-            // dkfvkqpt duf cnffur
+            // 알파벳 열 출력
             for(int j = 65; j <= 65 + i; j++) {
                 System.out.print((char) j);
             }
